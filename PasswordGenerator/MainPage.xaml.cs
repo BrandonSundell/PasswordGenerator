@@ -53,7 +53,8 @@ namespace PasswordGenerator
             string newPassword = "";
             string validChars = "!@$#%!@$#%ABCDEFGHIJKLMNOPQRSTUVWXYZ!@$#%!@$#%0123456789876543210!@$#%!@$#%abcdefghijklmnopqrstuvwxyz!@$#%!@$#%";
 
-            //write loops that pull random characters from each string and adds it to the newPassword string
+            //loop that pull random characters from a string of valid characters and adds 
+            //it to the newPassword string with 25 characters
             for (int i = 0; i < 25; i++)
             {
                 Random rand = new Random();
@@ -68,7 +69,8 @@ namespace PasswordGenerator
             string newPassword = "";
             string validChars = "!@$#%!@$#%ABCDEFGHIJKLMNOPQRSTUVWXYZ!@$#%!@$#%0123456789876543210!@$#%!@$#%abcdefghijklmnopqrstuvwxyz!@$#%!@$#%";
 
-            //write loops that pull random characters from each string and adds it to the newPassword string
+            //loop that pull random characters from a string of valid characters and adds 
+            //it to the newPassword string with 20 characters
             for (int i = 0; i < 20; i++)
             {
                 Random rand = new Random();
@@ -83,7 +85,8 @@ namespace PasswordGenerator
             string newPassword = "";
             string validChars = "!@$#%!@$#%ABCDEFGHIJKLMNOPQRSTUVWXYZ!@$#%!@$#%0123456789876543210!@$#%!@$#%abcdefghijklmnopqrstuvwxyz!@$#%!@$#%";
 
-            //write loops that pull random characters from each string and adds it to the newPassword string
+            //loop that pull random characters from a string of valid characters and adds 
+            //it to the newPassword string with 15 characters
             for (int i = 0; i < 15; i++)
             {
                 Random rand = new Random();
@@ -95,17 +98,15 @@ namespace PasswordGenerator
 
         private void _15CharButton_Checked(object sender, RoutedEventArgs e)
         {
-            //resultDisplay.Text = Generate15();
         }
 
         private void _20CharButton_Checked(object sender, RoutedEventArgs e)
         {
-            //resultDisplay.Text = Generate20();
         }
 
         private void _25CharButton_Checked(object sender, RoutedEventArgs e)
         {
-            //resultDisplay.Text = Generate25();
         }
+
     }
 }

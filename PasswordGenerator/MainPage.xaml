@@ -27,7 +27,7 @@
                 <CompositeTransform Rotation="0.066" TranslateX="0.905" TranslateY="0.155"/>
             </Button.RenderTransform>
         </Button>
-        <TextBox x:Name="resultDisplay" HorizontalAlignment="Center" Height="166" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="999" FontFamily="Arial Black" FontSize="36" Header="" AcceptsReturn="True" IsReadOnly="True" Margin="0,268,0,0">
+        <TextBox x:Name="resultDisplay" HorizontalAlignment="Center" Height="166" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="754" FontFamily="Arial Black" FontSize="36" Header="" AcceptsReturn="True" IsReadOnly="True" Margin="0,268,0,0" TextAlignment="Center">
             <TextBox.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
